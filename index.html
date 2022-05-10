@@ -1,5 +1,156 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
-    <body></body>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registrsion Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='app.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+    
+    <form action="action_page.php">
+     
+      <div class="backg">
+        <div class="planet">
+          <div class="r1"></div>
+          <div class="r2"></div>
+          <div class="r3"></div>
+          <div class="r4"></div>
+          <div class="r5"></div>
+          <div class="r6"></div>
+          <div class="r7"></div>
+          <div class="r8"></div>
+          <div class="shad"></div>
+        </div>
+        <div class="stars">
+          <div class="s1"></div>
+          <div class="s2"></div>
+          <div class="s3"></div>
+          <div class="s4"></div>
+          <div class="s5"></div>
+          <div class="s6"></div>
+        </div>
+        <div class="an">
+          <div class="tank"></div>
+          <div class="astro">
+              
+              <div class="helmet">
+                <div class="glass">
+                  <div class="shine"></div>
+                </div>
+              </div>
+              <div class="dress">
+                <div class="c">
+                  <div class="btn1"></div>
+                  <div class="btn2"></div>
+                  <div class="btn3"></div>
+                  <div class="btn4"></div>
+                </div>
+              </div>
+              <div class="handl">
+                <div class="handl1">
+                  <div class="glovel">
+                    <div class="thumbl"></div>
+                    <div class="b2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="handr">
+                <div class="handr1">
+                  <div class="glover">
+                    <div class="thumbr"></div>
+                    <div class="b1"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="legl">
+                <div class="bootl1">
+                  <div class="bootl2"></div>
+                </div>
+              </div>
+              <div class="legr">
+                <div class="bootr1">
+                  <div class="bootr2"></div>
+                </div>
+              </div>
+              <div class="pipe">
+                <div class="pipe2">
+                  <div class="pipe3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+   
+        
+
+        <svg viewBox="0 0 960 300">
+          <symbol id="s-text">
+            <text text-anchor="middle" x="50%" y="80%">SPACE_ME </text>
+            <text text-anchor="middle" x="52%" y="80%">SPACE_ME </text>
+            
+          </symbol>
+        
+          <g class = "g-ants">
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+            <use xlink:href="#s-text" class="text-copy"></use>
+          </g>
+        </svg>
+        <div class="container">
+            
+
+
+          <p class="title">Looking for Moon Walking? Lets go! 🚀</p>
+          <hr>
+          <label for="name"><b>Full Name</b></label>
+          <input type="text" placeholder="Enter Full Name" name="name" id="name" required>
+          
+          <label for="username"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="username" id="username">
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+      
+          <label for="psw"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><b>Password</b></label>
+          <p>Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters</p>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+          
+
+
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday">
+          <input type="submit">
+          <hr>
+          
+          <label for="gender"><b>Select you gender</b></label><br>
+          <input type="radio" name="gender" value="male"> Male<br>
+          <input type="radio" name="gender" value="female"> Female<br>
+          <input type="radio" name="gender" value="alian"> Alien<br>
+          <input type="radio" name="gender" value="other"> Other
+
+          
+        </div>
+        
+
+        
+      
+      
+
+
+      <p class="info">By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+          <button type="submit" class="registerbtn">Register</button>
+
+
+        <div class="container signin">
+          <p class="footer-singin">Already have an account? <a href="#">Sign in</a>.</p>
+        </div>
+      </form>
+    
+</body>
 </html>
